@@ -1,0 +1,19 @@
+/* All styles are for full screen. This will be moved with the full screen module */
+#container:-webkit-full-screen canvas {
+    height: 100%;
+    width: 100%;
+}
+
+#container:-full-screen canvas {
+    height: 100%;
+    width: 100%;
+}
+
+#canvas { background-color: white; }
+
+#container:-webkit-full-screen {
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    width: 100%;
+}

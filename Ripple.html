@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ripple</title>
+    <script src="Scripts/com/littleDebugger/namespacer.js"></script>
+    <script src="Scripts/com/littleDebugger/daw/dsp/generator/sineWave.js"></script>
+    <script src="Scripts/com/littleDebugger/ui/fullScreenEvent.js"></script>
+    <link rel="stylesheet" type="text/css" href="Styles/ripple.css"/>
+</head>
+
+<body>
+<div id="container">
+    <input type="button" value="Stop" id="stopStart"/>
+    Angle:<input id="angle" type="range" min="1" max="5" value="4" step="0.1"/> Points:
+    <input id="points" type="range" min="3" max="50" value="50" step="1"/>
+    <div>
+        <canvas id="canvas" height="450" width="1080">
+            Browser does not support canvas
+        </canvas>
+    </div>
+</div>
+
+<script src="Scripts/ripple.js"></script>
+</body>
+
+</html>
